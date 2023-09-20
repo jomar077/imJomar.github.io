@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #071952;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+main .card {
+    margin-top: 80px;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+    width: 175px;
+    position:absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #176B87;
+}
+
+.profileTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.cardbody {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cardbody ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.line {
+    width: 1px;
+    height: 115px;
+    background-color: black;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.fa-facebook {
+    color: #337CCF;
+}
+
+.fa-envelope {
+    color: #D71313;
+}
+
+.fa-instagram {
+    color: #E11299;
+}
+
+.fa-twitter {
+    color: #279EFF;
+}
